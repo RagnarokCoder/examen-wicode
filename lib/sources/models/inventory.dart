@@ -25,9 +25,9 @@ class ProductsPayload {
 }
 
 class ProductModel {
-  final int name;
+  final String name;
   final String description;
-  final String quantity;
+  final int quantity;
 
   String? id;
 

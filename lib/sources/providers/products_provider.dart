@@ -19,6 +19,6 @@ final addProductProvider = FutureProvider(
 );
 
 final formProductProvider = StateProvider<ProductModel>((ref) => ProductModel(
-    name: int.parse(name.text),
+    name: name.text,
     description: descripcion.text,
-    quantity: cantidad.text));
+    quantity: int.parse(cantidad.text)));

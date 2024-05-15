@@ -1,4 +1,5 @@
 import 'package:examen_tecnico/screens/inventory/components/list_inventory.dart';
+import 'package:examen_tecnico/screens/inventory/components/modal_inventory.dart';
 import 'package:examen_tecnico/screens/inventory/components/titles.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,8 @@ class _InventoryMainState extends State<InventoryMain> {
             InventoryTitles(size: size),
             ListInventory(
               size: size,
-            )
+            ),
+            ModalInventory(size: size),
           ],
         ),
       ),
