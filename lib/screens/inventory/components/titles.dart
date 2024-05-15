@@ -27,13 +27,6 @@ class _InventoryTitlesState extends State<InventoryTitles> {
             "Inventario",
             style: stylePrincipalBold(15, Colors.black),
           ),
-          IconButtonSmall(
-              action: () {
-                showModalInventory(context, widget.size);
-              },
-              icon: Icons.add,
-              color: colorblue,
-              iconColor: Colors.white)
         ],
       ),
     );
